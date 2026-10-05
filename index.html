@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#3F5130" />
+  <meta name="description" content="Первая Лавка — овощи, фрукты, специи, орехи и продукты на каждый день. Выбираем как для себя." />
+  <title>Первая Лавка — свежие продукты рядом</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700&family=Onest:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <a class="brand" href="#top" aria-label="Первая Лавка">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 56 56" role="img"><path d="M23 48V12h8v36z"/><path d="M28 27C34 13 46 12 50 12c-2 12-8 20-22 20z"/><path d="M27 35C19 24 9 25 6 26c2 10 8 15 21 14z"/><circle cx="13" cy="43" r="6"/></svg>
+      </span>
+      <span><b>ПЕРВАЯ</b><strong>ЛАВКА</strong></span>
+    </a>
+    <nav class="nav" aria-label="Основная навигация">
+      <a href="#assortment">Ассортимент</a>
+      <a href="#why">Почему мы</a>
+      <a href="#fresh">Новинки</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+    <button class="menu-btn" aria-label="Открыть меню">☰</button>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <span class="eyebrow">ПЕРВАЯ ЛАВКА · СОКОЛ</span>
+        <h1>Свежие продукты,<br><em>которые хочется выбрать.</em></h1>
+        <p>Овощи, фрукты, зелень, орехи, специи и немного хорошей бакалеи. Красиво, понятно и без случайного товара.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#assortment">Смотреть ассортимент</a>
+          <a class="btn ghost" href="#contacts">Узнать об открытии</a>
+        </div>
+        <div class="hero-notes">
+          <span>● Свежие поставки</span>
+          <span>● Отборный ассортимент</span>
+          <span>● Рядом с домом</span>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="photo photo-main">
+          <img src="https://images.unsplash.com/photo-1610348725531-843dff563e2c?auto=format&fit=crop&w=1200&q=85" alt="Свежие овощи и фрукты" />
+        </div>
+        <div class="floating-card">
+          <span>Выбираем</span>
+          <strong>как для себя</strong>
+          <small>Каждый день 🌿</small>
+        </div>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="Категории">
+      <div>ОВОЩИ ✦ ФРУКТЫ ✦ ЗЕЛЕНЬ ✦ ЯГОДЫ ✦ ОРЕХИ ✦ СУХОФРУКТЫ ✦ СПЕЦИИ ✦ БАКАЛЕЯ ✦</div>
+    </section>
+
+    <section class="section" id="assortment">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">ВСЁ НУЖНОЕ — В ОДНОМ МЕСТЕ</span>
+          <h2>Что будет в лавке</h2>
+        </div>
+        <p>Основу магазина составят свежие овощи и фрукты, а дополнят их категории, которые удобно взять к ужину или на неделю.</p>
+      </div>
+
+      <div class="categories">
+        <article class="category-card big">
+          <img src="https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=1000&q=85" alt="Овощи" />
+          <div><span>01</span><h3>Овощи</h3><p>База на каждый день и сезонные позиции.</p></div>
+        </article>
+        <article class="category-card">
+          <img src="https://images.unsplash.com/photo-1610832958506-aa56368176cf?auto=format&fit=crop&w=900&q=85" alt="Фрукты" />
+          <div><span>02</span><h3>Фрукты</h3><p>От яблок до манго и маракуйи.</p></div>
+        </article>
+        <article class="category-card">
+          <img src="https://images.unsplash.com/photo-1532336414038-cf19250c5757?auto=format&fit=crop&w=900&q=85" alt="Специи" />
+          <div><span>03</span><h3>Специи</h3><p>Ароматные смеси и пряности.</p></div>
+        </article>
+        <article class="category-card">
+          <img src="https://images.unsplash.com/photo-1599599810694-b5b37304c041?auto=format&fit=crop&w=900&q=85" alt="Орехи и сухофрукты" />
+          <div><span>04</span><h3>Орехи</h3><p>Орехи, сухофрукты и полезные перекусы.</p></div>
+        </article>
+        <article class="category-card">
+          <img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=900&q=85" alt="Бакалея" />
+          <div><span>05</span><h3>Бакалея</h3><p>Крупы, паста, масла, соусы и другое.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section story" id="why">
+      <div class="story-panel">
+        <span class="eyebrow light">НАША ИДЕЯ</span>
+        <h2>Не просто «овощи-фрукты».</h2>
+        <p>Мы хотим сделать современную городскую лавку, где приятно выбирать продукты и не нужно ехать по нескольким магазинам за зеленью, хорошими томатами, специями и орехами.</p>
+        <div class="stats">
+          <div><strong>01</strong><span>Проверяем качество перед выкладкой</span></div>
+          <div><strong>02</strong><span>Не перегружаем полки случайным ассортиментом</span></div>
+          <div><strong>03</strong><span>Добавляем сезонные и необычные продукты</span></div>
+        </div>
+      </div>
+      <div class="story-photo">
+        <img src="https://images.unsplash.com/photo-1488459716781-31db52582fe9?auto=format&fit=crop&w=1200&q=85" alt="Фруктово-овощная лавка" />
+      </div>
+    </section>
+
+    <section class="section" id="fresh">
+      <div class="section-head">
+        <div><span class="eyebrow">СЕЗОННОЕ И ИНТЕРЕСНОЕ</span><h2>Что хочется попробовать</h2></div>
+        <p>В тестовой версии это пример блока, который позже можно обновлять каждую неделю по фактическим поставкам.</p>
+      </div>
+      <div class="product-grid">
+        <article><div class="product-img"><img src="https://images.unsplash.com/photo-1528825871115-3581a5387919?auto=format&fit=crop&w=700&q=85" alt="Бананы" /></div><h3>Бананы</h3><span>Каждый день</span></article>
+        <article><div class="product-img"><img src="https://images.unsplash.com/photo-1550258987-190a2d41a8ba?auto=format&fit=crop&w=700&q=85" alt="Ананас" /></div><h3>Ананас</h3><span>Экзотика</span></article>
+        <article><div class="product-img"><img src="https://images.unsplash.com/photo-1519162808019-7de1683fa2ad?auto=format&fit=crop&w=700&q=85" alt="Авокадо" /></div><h3>Авокадо</h3><span>Спелое</span></article>
+        <article><div class="product-img"><img src="https://images.unsplash.com/photo-1560806887-1e4cd0b6cbd6?auto=format&fit=crop&w=700&q=85" alt="Яблоки" /></div><h3>Яблоки</h3><span>Несколько сортов</span></article>
+      </div>
+    </section>
+
+    <section class="section basket">
+      <div>
+        <span class="eyebrow">ИДЕЯ ДЛЯ ПОКУПАТЕЛЕЙ</span>
+        <h2>Корзина недели</h2>
+        <p>Готовый набор овощей и фруктов на несколько дней — без долгого выбора. Позже здесь можно подключить настоящий заказ и оплату.</p>
+        <a class="btn primary" href="#contacts">Хочу такую функцию</a>
+      </div>
+      <div class="basket-list">
+        <span>🥔 Картофель</span><span>🍅 Томаты</span><span>🥒 Огурцы</span><span>🍎 Яблоки</span><span>🍌 Бананы</span><span>🌿 Зелень</span>
+      </div>
+    </section>
+
+    <section class="section contact" id="contacts">
+      <div>
+        <span class="eyebrow light">ПЕРВАЯ ЛАВКА · СОКОЛ</span>
+        <h2>Хотите узнать об открытии первыми?</h2>
+        <p>Оставьте контакт в тестовой форме. В рабочей версии сюда можно подключить Telegram, VK, email-рассылку или программу лояльности.</p>
+      </div>
+      <form class="interest-form" id="interest-form">
+        <label>Как к вам обращаться?<input name="name" type="text" placeholder="Имя" autocomplete="name"></label>
+        <label>Куда прислать новость?<input name="contact" type="text" placeholder="Телефон, Telegram или VK"></label>
+        <button class="btn cream" type="submit">Сообщить об открытии</button>
+        <small>Демо-форма: данные никуда не отправляются.</small>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand footer-brand" href="#top"><span class="brand-mark mini" aria-hidden="true">1</span><span><b>ПЕРВАЯ</b><strong>ЛАВКА</strong></span></a>
+    <p>Овощи • фрукты • специи • продукты</p>
+    <p>Выбираем как для себя</p>
+    <span>Тестовая версия сайта · 2026</span>
+  </footer>
+
+  <div class="toast" id="toast" role="status">Спасибо! Это демо — форма пока ничего не отправляет.</div>
+  <script src="script.js"></script>
+</body>
+</html>
